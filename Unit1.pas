@@ -76,8 +76,24 @@ begin
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
+var
+  Nome: string;
+  Idade: integer;
+  Frase: string;
 begin
   AllocConsole();
+
+  // Aqui utilizaremos a atribuição direta onde faremos o nome e a idade receberem um valor
+  Nome := 'Paulo Eduardo';
+  Idade := 18;
+  // Note que o sinal de atribuição é ' := ' entao toda vez que vermos saberemos que e uma atribuição
+
+  // Esse metodo de juntar palavras numa frase é chamado de concatenação
+  Frase := 'Nome: ' + Nome + ', Idade: ' + IntToStr(Idade);
+
+  Writeln(Frase);
+
+
 end;
 
 end.

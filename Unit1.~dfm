@@ -49,6 +49,12 @@ object Form1: TForm1
     Width = 89
     Height = 33
     Caption = 'Button3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 0
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 2
     OnClick = Button3Click
   end
